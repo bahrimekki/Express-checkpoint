@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    style
+      include style.css
+  body
+    ul
+      a(href='/') Home
+      a(href='/OurServices') OusServices
+      a(href='/ContactUs') ContactUs
+    .container
+        form(action="") 
+            label(for="name") name 
+            input(type="text")
+            label(for="email") Email 
+            input(type="email")
+            label(for="message") message 
+            textarea(name="message", cols="30", rows="10") 
+            input(type="submit")

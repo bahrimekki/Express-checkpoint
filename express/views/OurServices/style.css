@@ -1,0 +1,11 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    height: 50px;
+    align-items: center;
+}
